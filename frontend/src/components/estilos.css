@@ -1,0 +1,9 @@
+#boton {
+  width: 300px;
+  height: 40px;
+  font-weight: bolder;
+}
+
+#mano:hover {
+  cursor: pointer;
+}

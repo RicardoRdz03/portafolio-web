@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#icono:hover {
+  cursor: pointer !important;
+}
+
+#titulo {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#botones {
+  background-color: #ca4242;
+  padding: 0.5rem 1rem;
+  margin-right: 3px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: white;
+  transition: all 0.3s;
+}
+
+#botones:hover {
+  background-color: #bd6262;
+}
+
+#botones:active {
+  transform: scale(0.9);
+}
+
+#botones-underlined {
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  margin-left: 3px;
+  border: 1px solid #ca4242;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #ca4242;
+  transition: all 0.3s;
+}
+
+#botones-underlined:hover {
+  background-color: #ca4242;
+  color: white;
+}
+
+#botones-underlined:active {
+  transform: scale(0.9);
+}
