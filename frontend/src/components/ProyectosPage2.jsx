@@ -36,7 +36,7 @@ function ProyectosPage2() {
               }}
             >
               <p className="text-2xl font-bold text-inherit">
-                MY <span className="text-[#F39D42]">PORTFOLIO</span>
+                MI <span className="text-[#F39D42]">PORTAFOLIO</span>
               </p>
             </a>
           </NavbarBrand>
