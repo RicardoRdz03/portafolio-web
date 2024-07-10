@@ -65,6 +65,64 @@ function ProyectosPage2() {
       </Navbar>
 
       <div className="">
+        <div className=" bg-neutral-100 ">
+          <div className="py-5 px-2">
+            <div className="grid grid-cols-2 ">
+              <div className="col-span-2 sm:col-span-2 md:col-span-1 lg:col-span-1 xl:col-span-1 flex justify-center ">
+                <Image
+                  style={{ border: "1px solid #000" }}
+                  width={500}
+                  alt="NextUI hero Image"
+                  src="/proyecto6.png"
+                />
+              </div>
+              <div className="col-span-2 sm:col-span-2 md:col-span-1 lg:col-span-1 xl:col-span-1">
+                <div className="my-4 flex justify-center">
+                  <h1 className="text-[#1b212e] text-xl font-bold text-center">
+                    Admin Dashboard - Frontend
+                  </h1>
+                </div>
+                <div className="mb-4 flex justify-center px-5">
+                  <p className="text-center text-sm">
+                    Página web de un panel de administración utilizando solo
+                    HTML y CSS con un estilo limpio y una buena paleta de
+                    colores.
+                  </p>
+                </div>
+                <div className="flex justify-center">
+                  <Chip className="m-1 text-[#ca4242]" variant="light">
+                    HTML
+                  </Chip>
+                  <Chip className="m-1 text-[#ca4242]" variant="light">
+                    CSS
+                  </Chip>
+                </div>
+
+                <div className="mt-4 flex justify-center">
+                  <a
+                    target="_blank"
+                    href="https://ricardordz03.github.io/Dashboard-Frontend/"
+                  >
+                    <button id="botones">
+                      <i className="fi fi-rr-site-alt text-base pt-2"></i>{" "}
+                      Demostración
+                    </button>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/RicardoRdz03/Dashboard-Frontend"
+                  >
+                    <button id="botones-underlined">
+                      <i className="fi fi-brands-github text-base pt-2"></i>{" "}
+                      Repositorio
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className=" rounded-lg">
           <div className="py-5 px-2">
             <div className="grid grid-cols-2 ">
